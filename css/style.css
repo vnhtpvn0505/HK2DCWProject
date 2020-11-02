@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'SFU AGBuchStencilBQ';
-  src: url('font/SFUAGBuchStencilBQMedium.eot');
+  src: url('../font/SFUAGBuchStencilBQMedium.eot');
   src: local('SFU AGBuchStencilBQ Medium'), local('SFUAGBuchStencilBQMedium'),
     url('font/SFUAGBuchStencilBQMedium.eot?#iefix') format('embedded-opentype'),
     url('font/SFUAGBuchStencilBQMedium.woff2') format('woff2'),
