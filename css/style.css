@@ -109,7 +109,7 @@ p {
 /* SECTION 1 */
 .section-one {
   /* background-color: #900404; */
-  background-image: url('/img/background3.jpg');
+  background-image: url('../img/background3.jpg');
   background-repeat: no-repeat;
 }
 .section-one .content {
