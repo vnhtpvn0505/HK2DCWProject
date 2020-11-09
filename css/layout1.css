@@ -75,7 +75,7 @@ a:hover {
 }
 .section-one {
   /* background-color: #3b64c0; */
-  background-image: url('/img/id/layout1/bg4.jpg');
+  background-image: url('../img/id/layout1/bg4.jpg');
   background-repeat: no-repeat;
 
   background-size: 100% 100%;
