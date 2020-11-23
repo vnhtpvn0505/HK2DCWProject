@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Titillium+Web:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('/font/Mulish-Regular.ttf');
+  src: local('/font/Mulish-Regular.ttf');
+}
+
+* {
+  font-family: 'Mulish';
+}
+@keyframes face_in {
+  from {
+    left: -30%;
+  }
+  to {
+    width: 40%;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+.ph_fixed_image {
+  width: 40%;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url('../img/id/layou2/avatar.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: face_in 2s linear;
+}
+.ph_section {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 40%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: translate3d(1%, 0, 0);
+}
+
+/* ==================== section home=========================*/
+@keyframes moving_down {
+  from {
+    top: 10%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    top: 30%;
+    visibility: visible;
+  }
+}
+@keyframes moving_up {
+  from {
+    top: 60%;
+    opacity: 0;
+    color: #333;
+  }
+  to {
+    opacity: 1;
+    top: 30%;
+    color: #7b0000;
+    visibility: visible;
+  }
+}
+@keyframes fade_txt {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+.ph_home {
+  width: 100%;
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ph_home .content {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.ph_home .first_name {
+  animation: moving_down 1.5s ease;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.ph_home .last_name {
+  top: 30%;
+  color: #7b0000;
+  animation: moving_up 1.5s ease;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.ph_home .name {
+  position: relative;
+  height: 20vh;
+  top: 30%;
+  padding-left: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  font-weight: 900;
+  letter-spacing: 30px;
+}
+.ph_home .position_work {
+  position: absolute;
+  top: 45%;
+}
+.ph_home .position_work .content {
+  animation: fade_txt 5s ease;
+  animation-iteration-count: 1;
+}
+.ph_home .position_work span.typing_word {
+  color: #7b0000;
+}
+.ph_home h1 span.cursor.typing {
+  animation: none;
+}
+.ph_home h1 span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 0.5s infinite;
+}
+.ph_home .btn {
+  position: absolute;
+  top: 55%;
+}
+.ph_home .btn .btn_resume {
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 60px;
+  background-color: #7b0000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 0 10px;
+}
+
+.ph_home .btn .btn_resume:hover {
+  padding: 20px 35px;
+  background-color: #fff;
+  border: 2px solid #7b0000;
+  color: #7b0000;
+}
+
+/* ==================== end section home=========================*/
+/* ==================== section about=========================*/
+/* ==================== end section about=========================*/
+/* ==================== section home=========================*/
+/* ==================== section home=========================*/
+/* ==================== section home=========================*/
+/* ==================== section home=========================*/
