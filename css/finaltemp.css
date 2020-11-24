@@ -113,11 +113,11 @@ a {
 }
 .ph_home .content {
   display: flex;
-
+  
   text-align: center;
   justify-content: center;
   flex-direction: row;
-  height: 100vh;
+  height: 100%;
 }
 
 .ph_home .first_name {
